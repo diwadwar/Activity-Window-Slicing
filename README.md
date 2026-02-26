@@ -12,4 +12,4 @@ PSL is a sample dataset created to demonstrate hwo to use AWS and how effective 
 
 PSL, consists of six Polish Sign Language gestures: 'good morning', 'goodbye', 'greetings', 'please', 'thank you', and 'why?'. Gestures were performed by four people seated in a fixed position relative to an RGB camera. Each person performed each gesture five times. Half of the dataset (people with numbers 1 and 3) are used as the training subset by default, while the other half (people with numbers 2 and 4) are used as the testing subset. Then, the Pose Detection module of the MediaPipe library was used to generate 3D coordinates of body landmarks (characteristic body parts). Only the torso and arm landmarks were used, while the head and legs were skipped due to the specificity of sign language.
 
-PSL is available in text format ("PSL dataset" catalogue), in Python numpy format ("AWS - Python/PSL.npz"), and in Matlab format ("AWS - Matlab/PSL.mat").
+PSL is available in text format ("PSL dataset" directory), in Python numpy format ("AWS - Python/PSL.npz"), and in Matlab format ("AWS - Matlab/PSL.mat").
