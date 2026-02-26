@@ -1,7 +1,7 @@
-catalogue structure:
+Directory structure:
 <subject_number>/<gesture_number>/<repetition>
 
-gestures:
+Gestures:
 1 - why?
 2 - goodbye
 3 - thank you
