@@ -15,6 +15,9 @@ Columns:
 1: x coordinate, 2: y coordinate, 3: z coodrinate, 4: landmark detection confidence [0-1]
 
 Landmarks:
+[In text files all landmarks are present.]
+[In Python and Matlab files only the landmarks 12-25 (corresponding to torso and arms) are present.]
+
 0 - nose
 1 - left eye (inner)
 2 - left eye
