@@ -1,7 +1,6 @@
 %% Augmentation method: AWS - Activity Window Slicing
 %
-% Authors:
-% Dawid Warchoł, Mariusz Oszust
+% Author: Dawid Warchoł
 % 
 % This function augments multivariate time-series data by intelligent slicing.
 % Instead of removing a random excerpt (window), it identifies and removes the excerpt
