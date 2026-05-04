@@ -4,8 +4,7 @@ def aug_aws(train, train_labels, n_draws, max_slice_ratio=0.4, min_slice_length=
     """
     Augmentation method: AWS - Activity Window Slicing
     
-    Authors:
-    Dawid Warchoł, Mariusz Oszust
+    Authors: Dawid Warchoł
     
     This function augments multivariate time-series data by intelligent slicing.
     Instead of removing a random excerpt (window), it identifies and removes the excerpt
